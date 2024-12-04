@@ -11,8 +11,6 @@ Saved/
 *.opensdf
 *.sdf
 *.suo
-
-# macOS用の設定を無視
 *.xcodeproj
 *.xcworkspace
 
@@ -20,6 +18,8 @@ Saved/
 !.uproject
 !Config/
 !Source/
-
-# 必要に応じて、ソリューションファイルも含める
 !.sln
+
+# ProjectFilesを含める(C++を読み込むように)
+!Intermediate/ProjectFiles/
+!Intermediate/ProjectFiles/**
