@@ -1,14 +1,25 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
+# Unreal Engineプロジェクトで無視するファイル
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE固有のファイルを無視
+.vscode/
+.vs/
 *.VC.db
 *.opensdf
-*.opendb
 *.sdf
-.sln
 *.suo
+
+# macOS用の設定を無視
 *.xcodeproj
 *.xcworkspace
+
+# 必須ファイル（無視しないようにする）
+!.uproject
+!Config/
+!Source/
+
+# 必要に応じて、ソリューションファイルも含める
+!.sln
