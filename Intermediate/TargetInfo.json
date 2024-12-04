@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ChronoTrial",
+			"Path": "D:\\GE3A27\\UE\\ChronoTrial\\Source\\ChronoTrial.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ChronoTrialEditor",
+			"Path": "D:\\GE3A27\\UE\\ChronoTrial\\Source\\ChronoTrialEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
