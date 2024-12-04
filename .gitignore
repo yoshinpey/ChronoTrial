@@ -4,6 +4,7 @@ DerivedDataCache/
 Intermediate/
 Saved/
 
+
 # IDE固有のファイルを無視
 .vscode/
 .vs/
@@ -14,12 +15,21 @@ Saved/
 *.xcodeproj
 *.xcworkspace
 
+
 # 必須ファイル（無視しないようにする）
 !.uproject
 !Config/
-!Source/
-!.sln
+
 
 # ProjectFilesを含める(C++を読み込むように)
+!.sln
+!Source/
 !Intermediate/ProjectFiles/
-!Intermediate/ProjectFiles/**
+
+!Intermediate\ProjectFiles\ChronoTrial.vcxproj
+!Intermediate\ProjectFiles\ChronoTrial.vcxproj.filters
+!Intermediate\ProjectFiles\ChronoTrial.vcxproj.user
+
+!Intermediate\ProjectFiles\UE4.vcxproj
+!Intermediate\ProjectFiles\UE4.vcxproj.filters
+!Intermediate\ProjectFiles\UE4.vcxproj.user
