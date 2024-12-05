@@ -6,11 +6,7 @@ void UMyGameInstance::Init()
     Super::Init();
     ReadConfigValues();
 
-    if (GEngine)
-    {
-        // 画面の左上に表示する例（色は白、5秒間表示）
-        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("Hello, World!"));
-    }
+    //GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("Hello, World!"));
 
 }
 
@@ -18,13 +14,6 @@ void UMyGameInstance::Shutdown()
 {
     Super::Shutdown();
     WriteConfigValues();
-
-    if (GEngine)
-    {
-        // 画面の左上に表示する例（色は白、5秒間表示）
-        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("ShotDown"));
-    }
-
 }
 
 void UMyGameInstance::ReadConfigValues()
