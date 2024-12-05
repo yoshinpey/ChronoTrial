@@ -30,7 +30,7 @@ void UMyGameInstance::Shutdown()
 void UMyGameInstance::ReadConfigValues()
 {
     // Configファイルのパスを指定
-    FString ConfigFilePath = FPaths::Combine(FPaths::ProjectConfigDir(), TEXT("GameSetting.ini"));
+    FString ConfigFilePath = FPaths::Combine(FPaths::ProjectConfigDir(), TEXT("GameSettings.ini"));
 
     // INIから各設定値を読み込み
     GConfig->GetInt(TEXT("Player"), TEXT("HP"), PlayerHP, ConfigFilePath);
