@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ChronoTrial.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FA4A1BF0-C48C-4412-9DEE-BB3BE45BFC4C}</UniqueIdentifier>
+      <UniqueIdentifier>{112EB3F3-BE23-4C0A-9D6E-B2B801896075}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ChronoTrial.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{07773009-8ED9-444D-9D07-DD755536F6A5}</UniqueIdentifier>
+      <UniqueIdentifier>{E5CF094A-988F-44A7-ACBA-5225C90F645F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -35,7 +35,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ChronoTrial">
-      <UniqueIdentifier>{5F846D51-9826-49F9-9654-35BAD63DC02E}</UniqueIdentifier>
+      <UniqueIdentifier>{1AD83296-8AD6-4633-9EF5-1EABEA1EFBD6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ChronoTrial\ChronoTrial.Build.cs">
       <Filter>Source\ChronoTrial</Filter>
@@ -47,16 +47,17 @@
       <Filter>Source\ChronoTrial</Filter>
     </ClInclude>
     <Filter Include="Source\ChronoTrial\Private">
-      <UniqueIdentifier>{F270A0D7-44A6-451B-8D81-FBC3CDC24826}</UniqueIdentifier>
+      <UniqueIdentifier>{795933B4-223D-4D1D-A71D-EFCC707D1D61}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ChronoTrial\Private\MyGameInstance.cpp">
       <Filter>Source\ChronoTrial\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ChronoTrial\Public">
-      <UniqueIdentifier>{DB859902-A1F4-4D6F-8BC6-6791556728F7}</UniqueIdentifier>
+      <UniqueIdentifier>{2B46F29C-8198-4960-818A-5CD3AE021822}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ChronoTrial\Public\MyGameInstance.h">
       <Filter>Source\ChronoTrial\Public</Filter>
     </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
