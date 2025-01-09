@@ -15,6 +15,7 @@ class CHRONOTRIAL_API UMyGameInstance : public UGameInstance
 
     UPROPERTY()
     bool CPlusData = true;      // C++データが有効かどうかのフラグ
+    FString ConfigFilePath; // 設定ファイルのパス
 
 public:
     virtual void Init() override;       // 初期化

@@ -31,9 +31,6 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\GameSettings.ini">
-      <Filter>Config</Filter>
-    </None>
     <Filter Include="Source\ChronoTrial">
       <UniqueIdentifier>{8FB23427-1BD1-4CA9-99BE-A6BA32D62417}</UniqueIdentifier>
     </Filter>
@@ -58,5 +55,8 @@
     <ClInclude Include="..\..\Source\ChronoTrial\Public\MyGameInstance.h">
       <Filter>Source\ChronoTrial\Public</Filter>
     </ClInclude>
+    <None Include="..\..\Config\DefaultGameSettings.ini">
+      <Filter>Config</Filter>
+    </None>
   </ItemGroup>
 </Project>

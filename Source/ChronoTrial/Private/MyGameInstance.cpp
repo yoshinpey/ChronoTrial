@@ -4,6 +4,17 @@
 void UMyGameInstance::Init()
 {
     Super::Init();
+
+    // Configファイルパスの設定
+    FString DefaultConfigPath = FPaths::Combine(FPaths::ProjectConfigDir(), TEXT("DefaultGameSettings.ini"));
+    ConfigFilePath = FPaths::Combine(FPaths::ProjectSavedDir(), TEXT("Config/GameSettings.ini"));
+
+    // 初回実行時にコピー
+    if (!FPaths::FileExists(ConfigFilePath))
+    {
+        FPlatformFileManager::Get().GetPlatformFile().CopyFile(*ConfigFilePath, *DefaultConfigPath);
+    }
+
     ReadConfigValues();
 
     //GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("Hello, World!"));
@@ -18,9 +29,6 @@ void UMyGameInstance::Shutdown()
 
 void UMyGameInstance::ReadConfigValues()
 {
-    // Configファイルのパスを指定
-    FString ConfigFilePath = FPaths::Combine(FPaths::ProjectConfigDir(), TEXT("GameSettings.ini"));
-
     // INIから各設定値を読み込み
 
     GConfig->GetFloat(TEXT("Settings"), TEXT("MouseSensitivity"), MouseSensitivity, ConfigFilePath);
@@ -55,8 +63,6 @@ void UMyGameInstance::ReadConfigValues()
 
 void UMyGameInstance::WriteConfigValues()
 {
-    FString ConfigFilePath = FPaths::Combine(FPaths::ProjectConfigDir(), TEXT("GameSettings.ini"));
-
     GConfig->SetFloat(TEXT("Settings"), TEXT("MouseSensitivity"), MouseSensitivity, ConfigFilePath);
     GConfig->SetFloat(TEXT("Settings"), TEXT("PadSensitivityX"), PadSensitivityX, ConfigFilePath);
     GConfig->SetFloat(TEXT("Settings"), TEXT("PadSensitivityY"), PadSensitivityY, ConfigFilePath);
