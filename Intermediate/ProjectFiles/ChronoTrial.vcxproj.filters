@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ChronoTrial.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F4C01BC2-CE86-494B-9D11-7A6291164990}</UniqueIdentifier>
+      <UniqueIdentifier>{C8A44DC4-F522-4DDA-BAAC-6AC3755FF5B5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ChronoTrial.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{BB340147-4656-40CC-B754-6A39CDDA87C1}</UniqueIdentifier>
+      <UniqueIdentifier>{2D297F44-D46C-4E5B-AD65-0F249A148DD7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,11 +28,14 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameSettings.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ChronoTrial">
-      <UniqueIdentifier>{8FB23427-1BD1-4CA9-99BE-A6BA32D62417}</UniqueIdentifier>
+      <UniqueIdentifier>{EBFB14FE-8B0E-432F-BB61-EE1B38ACEDDF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ChronoTrial\ChronoTrial.Build.cs">
       <Filter>Source\ChronoTrial</Filter>
@@ -44,19 +47,16 @@
       <Filter>Source\ChronoTrial</Filter>
     </ClInclude>
     <Filter Include="Source\ChronoTrial\Private">
-      <UniqueIdentifier>{D7952034-93F0-40D6-941A-984FCC4A1237}</UniqueIdentifier>
+      <UniqueIdentifier>{211B83F8-F927-4A75-835E-B083466D6EDC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ChronoTrial\Private\MyGameInstance.cpp">
       <Filter>Source\ChronoTrial\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ChronoTrial\Public">
-      <UniqueIdentifier>{80B09CB6-66F3-48D0-AE6E-3CB2CAF8414A}</UniqueIdentifier>
+      <UniqueIdentifier>{36FE409D-3BE6-44E1-B44F-36367B2AC86D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ChronoTrial\Public\MyGameInstance.h">
       <Filter>Source\ChronoTrial\Public</Filter>
     </ClInclude>
-    <None Include="..\..\Config\DefaultGameSettings.ini">
-      <Filter>Config</Filter>
-    </None>
   </ItemGroup>
 </Project>
