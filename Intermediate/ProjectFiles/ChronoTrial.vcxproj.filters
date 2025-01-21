@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ChronoTrial.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C8A44DC4-F522-4DDA-BAAC-6AC3755FF5B5}</UniqueIdentifier>
+      <UniqueIdentifier>{227DA0E7-F801-40E3-B697-12E7BD845D12}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ChronoTrial.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{2D297F44-D46C-4E5B-AD65-0F249A148DD7}</UniqueIdentifier>
+      <UniqueIdentifier>{89478F03-7968-4205-B321-D16EA556CF72}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -35,7 +35,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ChronoTrial">
-      <UniqueIdentifier>{EBFB14FE-8B0E-432F-BB61-EE1B38ACEDDF}</UniqueIdentifier>
+      <UniqueIdentifier>{6B7ADCC1-4655-4BE7-8C14-6F93A8E3BC05}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ChronoTrial\ChronoTrial.Build.cs">
       <Filter>Source\ChronoTrial</Filter>
@@ -47,13 +47,13 @@
       <Filter>Source\ChronoTrial</Filter>
     </ClInclude>
     <Filter Include="Source\ChronoTrial\Private">
-      <UniqueIdentifier>{211B83F8-F927-4A75-835E-B083466D6EDC}</UniqueIdentifier>
+      <UniqueIdentifier>{450ECFF9-6128-4E7C-A0B9-79BA2F0D8134}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ChronoTrial\Private\MyGameInstance.cpp">
       <Filter>Source\ChronoTrial\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ChronoTrial\Public">
-      <UniqueIdentifier>{36FE409D-3BE6-44E1-B44F-36367B2AC86D}</UniqueIdentifier>
+      <UniqueIdentifier>{015B6B7C-D3C6-4076-AC44-BE22DCF7601F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ChronoTrial\Public\MyGameInstance.h">
       <Filter>Source\ChronoTrial\Public</Filter>
