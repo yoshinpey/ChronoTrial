@@ -22,6 +22,11 @@ public:
     void ReadConfigValues();            // 設定値を読み込む
     void WriteConfigValues();           // 設定値を書き込む
 
+    /*----- レベル間で使用する変数 -----*/
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    bool DirecStageSelect = false;
+
     /*----- 全般的な設定 -----*/
 
     // マウスの感度
