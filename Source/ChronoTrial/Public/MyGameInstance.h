@@ -27,6 +27,9 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     bool DirecStageSelect = false;
 
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    bool IsTrialMode = false;
+
     /*----- 全般的な設定 -----*/
 
     // マウスの感度
