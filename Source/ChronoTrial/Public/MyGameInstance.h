@@ -70,6 +70,9 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
     bool IsTrialMode = false;
 
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    FTimespan LoadingElapsedTime = FTimespan();
+
     /*----- 全般的な設定 -----*/
 
     // マウスの感度
