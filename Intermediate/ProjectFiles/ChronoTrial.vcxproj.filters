@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ChronoTrial.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FA4A1BF0-C48C-4412-9DEE-BB3BE45BFC4C}</UniqueIdentifier>
+      <UniqueIdentifier>{AB29B0D1-C318-45DC-9D94-44E1C3A8036C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ChronoTrial.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{07773009-8ED9-444D-9D07-DD755536F6A5}</UniqueIdentifier>
+      <UniqueIdentifier>{E75B8344-406E-4079-82B2-5988D703D0E2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,14 +28,14 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameSettings.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\GameSettings.ini">
-      <Filter>Config</Filter>
-    </None>
     <Filter Include="Source\ChronoTrial">
-      <UniqueIdentifier>{5F846D51-9826-49F9-9654-35BAD63DC02E}</UniqueIdentifier>
+      <UniqueIdentifier>{347042E0-00AF-4692-A96D-D41CFF0F087B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ChronoTrial\ChronoTrial.Build.cs">
       <Filter>Source\ChronoTrial</Filter>
@@ -47,13 +47,13 @@
       <Filter>Source\ChronoTrial</Filter>
     </ClInclude>
     <Filter Include="Source\ChronoTrial\Private">
-      <UniqueIdentifier>{F270A0D7-44A6-451B-8D81-FBC3CDC24826}</UniqueIdentifier>
+      <UniqueIdentifier>{247708EE-822D-47EA-8B9A-2A411999D299}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ChronoTrial\Private\MyGameInstance.cpp">
       <Filter>Source\ChronoTrial\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ChronoTrial\Public">
-      <UniqueIdentifier>{DB859902-A1F4-4D6F-8BC6-6791556728F7}</UniqueIdentifier>
+      <UniqueIdentifier>{A737DF4B-7814-410C-9472-263F5E728ED0}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ChronoTrial\Public\MyGameInstance.h">
       <Filter>Source\ChronoTrial\Public</Filter>
